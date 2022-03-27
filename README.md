@@ -33,15 +33,21 @@ conda create --name horus python=3.7 -y
 ### Folder : ```JDE```
 
 ### Weight
-- https://drive.google.com/uc?id=1WxPH6WgMPQeOgrkqEu72puAxG82FRb__
+- https://drive.google.com/file/d/1nlnuYfGNuHWZztQHXwVZSL_FvfE551pA
 
 ### Prerequisite
-```
+```shell script
+pip install -r requirements.txt
 ```
 
 ### How to use
+```shell script
+python (main_file).py --input-video path/to/your/input/video --weights path/to/model/weights
+               --output-format video --output-root path/to/output/root
 ```
-```
+
+### reference
+https://github.com/Zhongdao/Towards-Realtime-MOT
 <br>
 
 ## II. PERSON REID
